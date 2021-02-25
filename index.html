@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pk Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+body{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+
+    background-image: url('img/804834.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+}
+.left{
+    position:absolute;
+    display: inline-block;
+left:60px;
+top:20px;
+}
+
+.mid{ 
+    display:block;
+    width:50%;
+    margin:20px auto;
+}
+.right{
+    position:absolute;
+    right:35px;
+    top:20px;
+    display: inline-block;
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+ font-size:20px;
+}
+.navbar li a{
+    color:white;
+    padding:35px 23px;
+    text-decoration:none; ;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration:underline ;
+    color:grey;
+}
+.left img{
+    width:135px;
+    filter: invert(100%);
+    }
+.left div{
+    line-height: 15px;
+    font-size:24px;
+    text-align: center;
+}
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    margin:0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 16px;
+    border: 2px solid grey ;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+.container{
+    border: 2px solid white;
+    margin: 130px 80px;
+    padding:75px ;
+    width:33% ;
+    border-radius:28px ;
+}
+.form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+<body>
+  <header class="header">
+      <div class="left">
+  <img src="img/logo.jpg" alt="">
+ <div>PK FITNESS</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FITNESS CALCULATOR</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="right">
+    <button class="btn">CALL US</button><button class="btn">EMAIL US</button>
+      </div>
+  </header>  
+  <div class="container">
+    <h1>Join the best gym now</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+</body>
+</html>
